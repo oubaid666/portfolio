@@ -1,0 +1,99 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aoubaid Harbi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+  <div class="nav-left">
+    <div class="logo">Aoubaid</div>
+  </div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <!-- سيتم إدخال الزر هنا من JS -->
+  </div>
+</nav>
+
+  </header>
+
+  <!-- Home Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Aoubaid Harbi</h1>
+      <p>Beginner Web Developer | Learning & Building Every Day</p>
+      <div class="buttons">
+        <a href="#projects">View Projects</a>
+        <a href="#contact">Contact Me</a>
+        <a href="Aoubaid_Harbi_CV.pdf" download class="download-btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is <strong>Aoubaid Harbi</strong>. I'm a passionate beginner web developer based in Algeria.
+        I'm currently learning web development with a focus on HTML, CSS, and JavaScript. My goal is to create responsive,
+        clean, and modern websites. I'm always exploring new tools and improving my skills step by step.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A simple personal portfolio to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+          <h3>Mini Calculator</h3>
+          <p>A basic calculator built using JavaScript, HTML, and CSS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-icons">
+      <a href="mailto:2004harbi@gamail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/oubaid666" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/2004harbi" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://linkedin.com/" target="_blank "><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
