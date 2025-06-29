@@ -110,7 +110,7 @@ section:nth-of-type(4) { animation-delay: 0.8s; }
   margin-right: 15px; /* يحافظ على النسبة الأصلية للصورة */
 }
 
-}
+
 
 .logo:hover {
   transform: scale(1.1);
